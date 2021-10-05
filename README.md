@@ -8,11 +8,15 @@ A new number(2 or 4) appears in a vacant cell after each move is performed. The 
 The code has five functions:
 
 ran_generator : It produces a random number(2 or 4) and assigns it in a random position which is not occupied by any other value.
+
 key_1() : This function is used for performing the Left and Up(after transposing the grid) moves. The function adds same values along a line and shifts the
           values accordingly.
+          
 key_2() : This function is used for performing the Right and Down(after transposing the grid) moves. The function adds same values along a line and shifts 
           the values accordingly.
+          
 transposmat() : It finds the transpose of the grid, used for Up and Down moves.
+
 printm() : It prints the elements in the grid in order. It also checks for the winning(2048 in a cell) and losing conditions(all cells occupied) and prints
            the appropriate message and ends the program.
           
